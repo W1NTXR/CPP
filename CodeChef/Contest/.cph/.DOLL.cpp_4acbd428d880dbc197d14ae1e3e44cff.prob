@@ -1,0 +1,1 @@
+{"name":"Local: DOLL","url":"c:\\C++\\CodeChef\\Contest\\DOLL.cpp","tests":[{"id":1640186108247,"input":"3\n4 10\n2 13 4 16\n5 8\n9 3 8 8 4\n4 6\n1 2 3 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\C++\\CodeChef\\Contest\\DOLL.cpp","group":"local","local":true}

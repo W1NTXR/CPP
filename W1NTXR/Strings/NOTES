@@ -1,0 +1,71 @@
+header file - string
+
+string s1 -----> intializes the string
+
+getline(cin , s1) ---------> thats how u input the string using cin function
+
+s1.compare(s2) ------> compares the string
+if s1 > = s2 -ve number
+s1 = s2 = 0
+s2 > s1 = +ve number
+
+s1.erase( {the postion of the element} , {number of charachters u want to erase })
+for ex
+s1 = "Saaransh";
+s1.erase(3,2) then,
+s1 = Saansh
+element at 3rd index = r so 2 charachters after r is deleted
+
+s1.append({string u want to append})
+for ex
+s1="Saar" ;
+s2="ansh" ;
+s1.append(s2); then
+s1 = Saaransh 
+
+u can also do
+s1 = s1 + s2 ;
+to append 
+
+s1.find({the substring or charachter u want to find in the string})
+for ex
+s1 = "Saaransh"
+s1.find("ans")
+= 4
+
+s1.insert({locate at which index you want to insert , string u want to insert})
+for ex 
+s1 = saransh ;
+s1.insert(2,a) ;
+= saaransh
+
+s1.length() or s1.size() ----> gives the length of the string
+
+s1.substr({index} , {number of letters})
+for ex
+s1 = saaransh
+s1.substr(2,3);
+=ara
+
+stoi(s1) ----> it converts the string into integer if the string is of integers ;
+for ex
+s1 = "786" ;
+int x = stoi(s1) ;
+x = 786
+
+to_string -----> converts integer into string
+for ex
+int x = 786 ;
+string s1 = to_string(x);
+s1 = "786" 
+
+sort(starting point, ending point) -----> sorts the string alphabetically
+USES HEADER FILE = algorithm
+#include<algorithm>
+
+for ex
+s1 = "zxy" ;
+sort(s1.begin() , s1.end())
+//s1.begin() gives the starting point of the string
+//s1.end() gives the index next to end of the string
+s1 = xyz 
